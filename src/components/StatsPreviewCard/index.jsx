@@ -19,7 +19,7 @@ export default function StatsPreviewCard() {
                 <div className="card-img">
                     <div className="bg-img"></div>
                     <picture>
-                        <source media="(min-width: 1200px)" srcSet={DesktopImage} alt='A image to desktop' />
+                        <source media="(min-width: 1150px)" srcSet={DesktopImage} alt='A image to desktop' />
                         <img src={MobileImage} alt="A image to mobile" />
                     </picture>
                 </div>

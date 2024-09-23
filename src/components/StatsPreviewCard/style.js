@@ -80,6 +80,41 @@ const CardContainer = styled.section `
         
     }
 
+    @media screen and (max-width: 965px) {
+        flex-direction: column-reverse;
+        border-radius: 14px;
+
+        .bg-img {
+            height: 99.5%;
+        }
+
+        .card-img img {
+            height: auto;
+            width: 100%;
+        }
+
+        .card-content {
+            text-align: center;
+            padding: 24px;
+        }
+
+        .card-title {
+            font-size: 1.75rem;
+        }
+
+        .card-description {
+            font-size: 0.875rem;
+            padding-right: 0;
+            margin-bottom: 40px;
+        }
+
+        .card-stats-container {
+            flex-direction: column;
+            padding-right: 0;
+            gap: 24px;
+        }
+    }
+
 
 `
 
